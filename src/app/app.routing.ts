@@ -1,6 +1,6 @@
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
-/*import { AppComponent } from "./app.component";*/
+
 export const routes: Routes = [ // Routes类型的数组
   { path: '', redirectTo: 'pages', pathMatch: 'full' },
   { path: '**', redirectTo: 'pages/home' }

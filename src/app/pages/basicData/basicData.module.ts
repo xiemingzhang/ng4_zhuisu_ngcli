@@ -2,7 +2,7 @@ import { NgModule }      from '@angular/core';
 import { CommonModule }  from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { routing }       from './basicData.route';
+import { routing }       from './basicData.routing';
 import { BasicDataComponent } from './basicData.component';
 import { EnterpriseComponent } from './enterprise/enterprise.component';
 import { ProductAddComponent } from './productAdd/productAdd.component';

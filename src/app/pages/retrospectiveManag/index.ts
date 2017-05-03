@@ -1,1 +1,1 @@
-export * from './basicData.component';
+export * from './retrospectiveManag.component';

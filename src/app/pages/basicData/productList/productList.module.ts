@@ -1,4 +1,5 @@
 import { NgModule }      from '@angular/core';
+
 import { ProductListComponent } from './productList.component' ;
 
 @NgModule({

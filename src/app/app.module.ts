@@ -1,10 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RouterModule } from "@angular/router";
 
 import { AppComponent } from './app.component';
-import { routes } from './app.routes';
+import { routing } from './app.routing';
+import { PagesModule } from './pages/pages.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,8 @@ import { routes } from './app.routes';
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot(routes,{useHash: false})
+    PagesModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

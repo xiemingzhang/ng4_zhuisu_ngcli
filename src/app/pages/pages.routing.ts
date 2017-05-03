@@ -2,6 +2,7 @@ import { Routes, RouterModule }  from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 // noinspection TypeScriptValidateTypes
 
+import { PagesComponent } from './pages.component';
 // export function loadChildren(path) { return System.import(path); };
 
 export const routes: Routes = [
@@ -15,12 +16,13 @@ export const routes: Routes = [
   },*/
   {
     path: 'pages',
+    component: PagesComponent,
     children: [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'home', loadChildren: 'app/pages/home/home.module#HomeModule' },
-      { path: 'basicData', loadChildren: 'app/pages/basicData/basicData.module#basicDataModule' },
-      { path: 'retrospectiveManag', loadChildren: 'app/pages/retrospectiveManag/retrospectiveManag.module#retrospectiveManagModule' },
-      { path: 'userManag', loadChildren: 'app/pages/userManag/userManag.module#userManagModule' }
+      { path: 'home', loadChildren: './home/home.module#HomeModule' },
+      { path: 'basicData', loadChildren: './basicData/basicData.module#BasicDataModule' },
+      { path: 'retrospectiveManag', loadChildren: './retrospectiveManag/retrospectiveManag.module#RetrospectiveManagModule' },
+      { path: 'userManag', loadChildren: './userManag/userManag.module#UserManagModule' }
     ]
   }
 ];

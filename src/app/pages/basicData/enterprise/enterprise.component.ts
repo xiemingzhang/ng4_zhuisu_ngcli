@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
   moduleId: module.id,
   selector: 'enterprise',
   templateUrl: 'enterprise.component.html',
-  styleUrls: [ 'enterprise.component.css' ]
+  styleUrls: [ 'enterprise.component.scss' ]
  
 })
 export class EnterpriseComponent {}

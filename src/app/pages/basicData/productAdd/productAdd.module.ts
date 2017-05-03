@@ -1,4 +1,5 @@
 import { NgModule }      from '@angular/core';
+
 import { ProductAddComponent } from './productAdd.component' ;
 
 @NgModule({

@@ -2,7 +2,8 @@ import {Component} from '@angular/core';
 
 @Component({
   selector: 'basicData',
-  template: `<router-outlet></router-outlet>`
+  template: `<H3>basicData</H3>
+  			<router-outlet></router-outlet>`
 })
 export class BasicDataComponent {
 
