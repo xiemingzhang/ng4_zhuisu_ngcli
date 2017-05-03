@@ -17,6 +17,9 @@ export const routes: Routes = [
   {
     path: 'pages',
     component: PagesComponent,
+    data: {
+      title: 'pages'
+    },
     children: [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'home', loadChildren: './home/home.module#HomeModule' },

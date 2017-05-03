@@ -10,6 +10,9 @@ const routes: Routes = [
   {
     path: '',
     component: BasicDataComponent,
+    data: {
+      title: 'pages_basicData'
+    },
     children: [
       { path: 'enterprise', component: EnterpriseComponent },
       { path: 'productAdd', component: ProductAddComponent },

@@ -10,6 +10,9 @@ const routes: Routes = [
   {
     path: '',
     component: RetrospectiveManagComponent,
+    data: {
+      title: 'pages_retrospectiveManag'
+    },
     children: [
       { path: 'retrospectiveAppl', component: RetrospectiveApplComponent },
       { path: 'retrospectiveUpload', component: RetrospectiveUploadComponent }

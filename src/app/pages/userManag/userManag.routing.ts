@@ -10,6 +10,9 @@ const routes: Routes = [
   {
     path: '',
     component: UserManagComponent,
+    data: {
+      title: 'pages_userManag'
+    },
     children: [
       { path: 'userGroup', component: UserGroupComponent },
       { path: 'userList', component: UserListComponent }
