@@ -2,24 +2,24 @@ export const PAGES_MENU = [
   {
     path: 'pages',
     children: [
-      /*{
+      {
         path: 'home',
         data: {
           menu: {
             title: "home",
-            
+            icon: 'ion-android-home',
             selected: false,
             expanded: false,
             order: 0
           }
         }
-      },*/
+      },
       {
         path: 'basicData',
         data: {
           menu: {
             title: 'basicData',
-            icon: 'ion-android-home',
+            icon: 'ion-edit',
             selected: false,
             expanded: false,
             order: 100,
@@ -57,7 +57,8 @@ export const PAGES_MENU = [
         data: {
           menu: {
             title: 'retrospectiveManag',
-            icon: 'ion-edit',
+            icon: "ion-monitor",
+            /*icon: 'ion-edit',*/
             selected: false,
             expanded: false,
             order: 250,
@@ -87,7 +88,8 @@ export const PAGES_MENU = [
         data: {
           menu: {
             title: 'userManag',
-            icon: 'ion-gear-a',
+            icon: 'ion-person-stalker',
+            /*icon: 'ion-gear-a',*/
             selected: false,
             expanded: false,
             order: 200,
