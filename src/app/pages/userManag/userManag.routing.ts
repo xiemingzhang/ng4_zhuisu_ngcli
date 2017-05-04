@@ -11,7 +11,7 @@ const routes: Routes = [
     path: '',
     component: UserManagComponent,
     data: {
-      title: 'pages_userManag'
+    	title: 'UserManagComponent'
     },
     children: [
       { path: 'userGroup', component: UserGroupComponent },

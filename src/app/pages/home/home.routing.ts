@@ -9,7 +9,7 @@ export const routes: Routes = [
     path: '',
     component: HomeComponent,
     data: {
-      title: 'pages_home'
+      title: 'HomeComponent'
     },
   }
 ];

@@ -11,7 +11,7 @@ const routes: Routes = [
     path: '',
     component: RetrospectiveManagComponent,
     data: {
-      title: 'pages_retrospectiveManag'
+    	title: 'RetrospectiveManagComponent'
     },
     children: [
       { path: 'retrospectiveAppl', component: RetrospectiveApplComponent },

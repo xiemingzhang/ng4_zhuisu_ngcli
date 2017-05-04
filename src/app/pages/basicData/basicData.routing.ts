@@ -11,7 +11,7 @@ const routes: Routes = [
     path: '',
     component: BasicDataComponent,
     data: {
-      title: 'pages_basicData'
+    	title: 'BasicDataComponent'
     },
     children: [
       { path: 'enterprise', component: EnterpriseComponent },
