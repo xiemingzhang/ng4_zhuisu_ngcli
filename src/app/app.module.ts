@@ -1,10 +1,18 @@
+import { NgModule, ApplicationRef } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TranslateService } from '@ngx-translate/core';
 
-import { AppComponent } from './app.component';
 import { routing } from './app.routing';
+import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
+
+import { AppState, InternalStateType } from './app.service';
+import { GlobalState } from './global.state';
+import { NgaModule } from './theme/nga.module';
 
 @NgModule({
   declarations: [
@@ -12,11 +20,21 @@ import { PagesModule } from './pages/pages.module';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
+    RouterModule,
     FormsModule,
+    ReactiveFormsModule,
+    NgaModule.forRoot(),
+    NgbModule.forRoot(),
     PagesModule,
     routing
   ],
-  providers: [],
+  providers: [
+    AppState,
+    GlobalState
+    ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+    constructor(public appState: AppState) { }
+}

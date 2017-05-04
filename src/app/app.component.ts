@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewContainerRef } from '@angular/core';
+import * as $ from 'jquery';
 
 import 'style-loader!./app.component.scss';
 @Component({
