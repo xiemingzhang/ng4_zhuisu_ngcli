@@ -1,10 +1,12 @@
 import { NgModule }      from '@angular/core';
 
-import { EnterpriseComponent } from './enterprise.component' ;
+import { EnterpriseComponent } from './enterprise.component';
 
 @NgModule({
   imports: [ ],
-  declarations: [ EnterpriseComponent ],
+  declarations: [ 
+	EnterpriseComponent
+  ],
   providers: [ ]
 })
 
