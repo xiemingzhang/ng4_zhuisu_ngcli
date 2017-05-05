@@ -6,7 +6,7 @@ export const PAGES_MENU = [
         path: 'home',
         data: {
           menu: {
-            title: "home",
+            title: "general.menu.home",
             icon: 'ion-android-home',
             selected: false,
             expanded: false,
@@ -18,7 +18,7 @@ export const PAGES_MENU = [
         path: 'basicData',
         data: {
           menu: {
-            title: 'basicData',
+            title: 'general.menu.basicData',
             icon: 'ion-edit',
             selected: false,
             expanded: false,
@@ -30,7 +30,7 @@ export const PAGES_MENU = [
             path: 'enterprise',
             data: {
               menu: {
-                title: 'enterprise',
+                title: 'general.menu.enterprise',
               }
             }
           },
@@ -38,7 +38,7 @@ export const PAGES_MENU = [
             path: 'productAdd',
             data: {
               menu: {
-                title: 'productAdd',
+                title: 'general.menu.productAdd',
               }
             }
           },
@@ -46,7 +46,7 @@ export const PAGES_MENU = [
             path: 'productList',
             data: {
               menu: {
-                title: 'productList',
+                title: 'general.menu.productList',
               }
             }
           }
@@ -56,7 +56,7 @@ export const PAGES_MENU = [
         path: 'retrospectiveManag',
         data: {
           menu: {
-            title: 'retrospectiveManag',
+            title: 'general.menu.retrospectiveManag',
             icon: "ion-monitor",
             /*icon: 'ion-edit',*/
             selected: false,
@@ -69,7 +69,7 @@ export const PAGES_MENU = [
             path: 'retrospectiveAppl',
             data: {
               menu: {
-                title: 'retrospectiveAppl',
+                title: 'general.menu.retrospectiveAppl',
               }
             }
           },
@@ -77,7 +77,7 @@ export const PAGES_MENU = [
             path: 'retrospectiveUpload',
             data: {
               menu: {
-                title: 'retrospectiveUpload',
+                title: 'general.menu.retrospectiveUpload',
               }
             }
           }
@@ -87,7 +87,7 @@ export const PAGES_MENU = [
         path: 'userManag',
         data: {
           menu: {
-            title: 'userManag',
+            title: 'general.menu.userManag',
             icon: 'ion-person-stalker',
             /*icon: 'ion-gear-a',*/
             selected: false,
@@ -100,7 +100,7 @@ export const PAGES_MENU = [
             path: 'userGroup',
             data: {
               menu: {
-                title: 'userGroup',
+                title: 'general.menu.userGroup',
               }
             }
           },
@@ -108,7 +108,7 @@ export const PAGES_MENU = [
             path: 'userList',
             data: {
               menu: {
-                title: 'userList',
+                title: 'general.menu.userList',
               }
             }
           }
