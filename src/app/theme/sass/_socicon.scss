@@ -68,3 +68,12 @@
 .socicon-behace {
   @include socicon($behace-color, "H");
 }
+.socicon-baidu {
+  @include socicon($facebook-color, "\e00a");
+}
+.socicon-qq{
+  @include socicon($facebook-color, "\e068");
+}
+.socicon-wechat{
+  @include socicon($facebook-color, "\e097");
+}
