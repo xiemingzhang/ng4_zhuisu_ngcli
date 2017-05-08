@@ -8,4 +8,4 @@ import { RetrospectiveUploadComponent } from './retrospectiveUpload.component' ;
   providers: [ ]
 })
 
-export class RetrospectiveApplModule {}
+export class RetrospectiveUploadModule {}

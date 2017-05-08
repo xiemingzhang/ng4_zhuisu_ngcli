@@ -80,6 +80,14 @@ export const PAGES_MENU = [
                 title: 'general.menu.retrospectiveUpload',
               }
             }
+          },
+          {
+            path: 'retrospectiveList',
+            data: {
+              menu: {
+                title: 'general.menu.retrospectiveList',
+              }
+            }
           }
         ]
       },

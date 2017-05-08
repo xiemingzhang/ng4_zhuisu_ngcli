@@ -1,19 +1,20 @@
 {
   
   "general": {
-    "akveo": "Akveo",
+    "akveo": "中农金保网络科技",
     "home": "Home",
     "menu": {
       "home": "主页",
       "basicData": "基础信息管理",
       "enterprise": "企业信息管理",
-      "productAdd": "品种新增",
-      "productList": "产品列表",
+      "productAdd": "企业产品新增",
+      "productList": "企业产品列表",
       "retrospectiveManag": "追溯码管理",
       "retrospectiveAppl": "追溯码申请",
       "retrospectiveUpload": "追溯码导入",
+      "retrospectiveList": "追溯码列表",
       "userManag": "用户管理",
-      "userGroup": "用户组",
+      "userGroup": "用户组管理",
       "userList": "用户列表",
       "login": "登录",
       "register": "注册"
