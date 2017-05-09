@@ -27,14 +27,20 @@
         "../node_modules/bootstrap/scss/bootstrap.scss",
         "../node_modules/fullcalendar/dist/fullcalendar.css",
         "app/theme/theme.scss",
-        "styles.scss"
+        "styles.scss",
+        "../node_modules/froala-editor/css/froala_editor.pkgd.min.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.js",
         "../node_modules/easy-pie-chart/dist/jquery.easypiechart.js",
         "../node_modules/jquery-slimscroll/jquery.slimscroll.js",
         "../node_modules/tether/dist/js/tether.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.js"
+        "../node_modules/bootstrap/dist/js/bootstrap.js",
+         "../node_modules/froala-editor/js/froala_editor.pkgd.min.js",
+         "../node_modules/froala-editor/js/languages/zh_cn.js"
+      ],
+      "addons": [
+        "../node_modules/font-awesome/fonts/*.+(otf|eot|svg|ttf|woff|woff2)"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

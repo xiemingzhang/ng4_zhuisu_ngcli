@@ -2,6 +2,7 @@ import { NgModule }      from '@angular/core';
 import { CommonModule }  from '@angular/common';
 import { FormsModule as AngularFormsModule } from '@angular/forms';
 import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
+import { FroalaEditorModule, FroalaViewModule } from 'angular2-froala-wysiwyg';
 
 import { NgaModule } from '../theme/nga.module';
 import { AppTranslationModule } from '../app.translation.module';
@@ -16,6 +17,8 @@ import { PagesComponent } from './pages.component';
   		AngularFormsModule,
   		NgbRatingModule,
   		AppTranslationModule,
+  		FroalaEditorModule.forRoot(),
+  		 FroalaViewModule.forRoot(),
   		routing
   		],
   declarations: [ PagesComponent ]
