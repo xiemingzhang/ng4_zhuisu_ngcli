@@ -1,5 +1,6 @@
 import { NgModule }      from '@angular/core';
 import { CommonModule }  from '@angular/common';
+import { CKEditorModule } from 'ng2-ckeditor';
 import { AppTranslationModule } from '../../app.translation.module';
 import { NgaModule } from '../../theme/nga.module';
 
@@ -12,6 +13,7 @@ import { ProductListComponent } from './productList/productList.component';
 @NgModule({
   imports: [
     CommonModule,
+    CKEditorModule,
     AppTranslationModule,
     NgaModule,
     routing
