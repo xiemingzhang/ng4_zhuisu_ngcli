@@ -4,7 +4,9 @@ import { HomeComponent } from './home.component' ;
 import { routing }       from './home.routing';
 
 @NgModule({
-  imports: [ routing ],
+  imports: [ 
+  	routing 
+  ],
   declarations: [ HomeComponent ],
   providers: [ ]
 })
