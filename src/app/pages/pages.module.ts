@@ -8,6 +8,7 @@ import { AppTranslationModule } from '../app.translation.module';
 import { routing }       from './pages.routing';
 import { PagesComponent } from './pages.component';
 
+
 @NgModule({
   imports: [
   		CommonModule, 
@@ -16,6 +17,7 @@ import { PagesComponent } from './pages.component';
   		AppTranslationModule,
   		routing
   		],
+ 		
   declarations: [ PagesComponent ]
 })
 export class PagesModule {
